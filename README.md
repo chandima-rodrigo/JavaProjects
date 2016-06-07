@@ -1,2 +1,2 @@
 # JavaProjects
-Java Projects
+Contains some simple Java Projects
