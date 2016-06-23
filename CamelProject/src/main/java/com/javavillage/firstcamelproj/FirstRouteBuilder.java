@@ -11,7 +11,7 @@ public class FirstRouteBuilder extends RouteBuilder {
 		from("file:C:/camel/input?noop=true")
 		.process(new LogProccessor())
 		.bean(new Transormer(), "TransformContentMethod")
-		.to("file:C:/camel/output");
+		.to("file:C:/camel/output_New");
 	}
 
 
