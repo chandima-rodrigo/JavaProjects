@@ -1,4 +1,34 @@
-#Git ignore list
+# Git ignore list #
+###################
+*/target/**
+Spring.xml
+
+
+# Compiled source #
+###################
+*.war
+*.class
+*.jar
+
+
+# OS generated files #
+######################
+.Trashes
+
+
+# Logs and databases #
+######################
+*.log
+
+# ignore IDE (eclipse / intellij) related files #
+#################################################
+.classpath
+.settings
+.idea
+.metadata
+*.iml
+*.ipr
+
 .metadata
 .recommenders
 RemoteSystemsTempFiles
